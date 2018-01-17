@@ -17,6 +17,7 @@ class Candidate implements Serializable {
     String name
     String photo
     String profile
+
     int vote
     boolean elected
     @ManyToOne
